@@ -1,0 +1,156 @@
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url('../font/exo-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Exo Bold'), local('Exo-Bold'), url('../font/exo-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../font/montserrat.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Imprima'), local('Imprima-Regular'), url('../font/imprima.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Italiana'), local('Italiana-Regular'), url('../font/italiana.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Economica'), local('Economica-Regular'), url('../font/economica.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Serif'), local('DroidSerif'), url('../font/droid-serif-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url('../font/droid-serif-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url('../font/droid-sans-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('../font/droid-sans-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans'), local('PTSans-Regular'), url('../font/pt-sans-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../font/pt-sans-bold.woff') format('woff');
+}
+
+@import "../bootstrap/bootstrap.less";
+@import "variables.less";
+
+
+body {
+  padding-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.btn,
+.nav {
+    font-family: 'Exo', sans-serif;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+// Custom Scrollbar
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 10px;
+  background: -webkit-gradient(linear,left top,right top,color-stop(0%,
+  rgba(202, 202, 202, 0.07)),color-stop(100%,
+  rgba(229, 229, 229, 0.07)));
+  background: -webkit-linear-gradient(left, rgba(202, 202, 202, 0.07) 0%, rgba(229, 229, 229, 0.07) 100%);
+  -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.15) inset,0 1px 0 0 #fff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,.15) inset,0 1px 0 0 #fff;
+  background-color: #BBB;
+}
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear,left top,right top,color-stop(0%,
+  rgba(233, 233, 233, 0.05)),color-stop(100%,
+  rgba(221, 221, 221, 0.05)));
+  background: -webkit-linear-gradient(left,
+  rgba(233, 233, 233, 0.05) 0%,
+  rgba(221, 221, 221, 0.05) 100%);
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,.05);
+  background-color: #E9E9E9;
+}
+.custom-scroll-bar::-webkit-scrollbar, .custom-scroll-bar::-webkit-scrollbar-thumb {
+  overflow: visible;
+  .border-radius(4px);
+  border: solid 1px 
+  #A6A6A6;
+}
+Pseudo ::-webkit-file-upload-button element.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear,left top,right top,color-stop(0%,
+  rgba(233, 233, 233, 0.05)),color-stop(100%,
+  rgba(221, 221, 221, 0.05)));
+  background: -webkit-linear-gradient(left,
+  rgba(233, 233, 233, 0.05) 0%,
+  rgba(221, 221, 221, 0.05) 100%);
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,.05);
+  background-color: #E9E9E9;
+}
+Pseudo ::-webkit-input-placeholder element.custom-scroll-bar::-webkit-scrollbar-button {
+  height: 0;
+  display: block;
+  background-color: transparent;
+}
