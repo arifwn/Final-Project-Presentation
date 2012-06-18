@@ -88,7 +88,7 @@
 
 
 body {
-  padding-top: 60px;
+  min-height: 600px;
 }
 
 h1,
@@ -96,18 +96,90 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
 }
 
 .btn,
 .nav {
-    font-family: 'Exo', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 .btn {
-    font-weight: bold;
-    font-size: 12px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+// Base Presentation Style
+
+.step {
+  width: 760px;
+  padding: 40px;
+  font-size: 48px;
+  line-height: 1.5;
+  .transition(opacity 1s);
+}
+
+.step:not(.active) {
+  opacity: 0.3;
+}
+
+.step:not(.active):hover {
+  opacity: 0.5;
+}
+
+.step:not(.active).toggle {
+  opacity: 0;
+}
+
+.step .toggle {
+  .transition(opacity 1s);
+}
+
+.step:not(.active) .toggle {
+  opacity: 0;
+}
+
+.step p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.step li {
+  font-size: 24px;
+}
+
+.step p small {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+.step li small {
+  font-size: 20px;
+  color: gray;
+}
+
+.step p small.ultra-small {
+  font-size: 14px;
+}
+
+.step h1 {
+  font-size: 44px;
+  text-align: center;
+}
+
+// Individual Style
+
+
+// Toolbox
+
+.toolbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
 }
 
 // Custom Scrollbar
