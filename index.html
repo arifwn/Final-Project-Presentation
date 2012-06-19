@@ -51,7 +51,7 @@
                 </div>
             </div>
             
-            <div id="latar-belakang-5" class="step slide paper" data-x="0" data-y="2000" data-z="-1000" data-rotate-y="180" data-scale="1">
+            <div id="latar-belakang-5" class="step slide paper" data-x="0" data-y="2000" data-z="-1000" data-rotate-y="180" data-rotate-z="33" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Data Meteorologi</h1>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             
-            <div id="latar-belakang-6" class="step slide paper" data-x="0" data-y="2500" data-z="-1000" data-rotate-y="180" data-scale="1">
+            <div id="latar-belakang-6" class="step slide paper" data-x="0" data-y="2500" data-z="-1000" data-rotate-y="150" data-rotate-z="66" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Data Emisi</h1>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             
-            <div id="latar-belakang-7" class="step slide paper" data-x="0" data-y="3000" data-z="-1000" data-rotate-y="180" data-scale="1">
+            <div id="latar-belakang-7" class="step slide paper" data-x="0" data-y="3000" data-z="-1000" data-rotate-y="120" data-rotate-z="99" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Pengoprasian Model</h1>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             
-            <div id="aermod-2" class="step slide paper" data-x="0" data-y="4000" data-z="-1000" data-rotate-y="180" data-scale="1">
+            <div id="aermod-2" class="step slide paper" data-x="0" data-y="4000" data-z="-1000" data-rotate-y="90" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Eksekusi Model AERMOD</h1>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             
-            <div id="aermod-3" class="step slide paper" data-x="0" data-y="4500" data-z="-1000" data-rotate-y="180" data-scale="1">
+            <div id="aermod-3" class="step slide paper" data-x="0" data-y="4500" data-z="-1000" data-rotate-y="0" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Visualisasi Hasil Pemodelan AERMOD</h1>
@@ -106,14 +106,14 @@
             </div>
             
             <!-- Tujuan -->
-            <div id="tujuan-1" class="step slide cicada-stripe" data-x="1500" data-y="0" data-scale="1">
+            <div id="tujuan-1" class="step slide weave" data-x="1500" data-y="0" data-scale="1">
                 <div class="slide-content">
                     <h1>Tujuan Penelitian</h1>
                 </div>
             </div>
             
             
-            <div id="tujuan-2" class="step slide paper" data-x="1500" data-y="500" data-scale="1">
+            <div id="tujuan-2" class="step slide weave" data-x="1500" data-y="500" data-rotate-y="180" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>Tujuan Penelitian</h1>
@@ -124,13 +124,13 @@
             
             <!-- Rancangan sistem terintegrasi -->
             
-            <div id="desain-1" class="step slide cicada-stripe" data-x="-1500" data-y="0" data-scale="1">
+            <div id="desain-1" class="step slide tartan" data-x="-1500" data-y="0" data-scale="1">
                 <div class="slide-content">
                     <h1>Air Quality Modeling System</h1>
                 </div>
             </div>
             
-            <div id="desain-2" class="step slide paper" data-x="-1500" data-y="500" data-scale="1">
+            <div id="desain-2" class="step slide tartan" data-x="-1500" data-y="500" data-z="1000" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>AQM System</h1>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             
-            <div id="desain-3" class="step slide paper" data-x="-1500" data-y="1000" data-scale="1">
+            <div id="desain-3" class="step slide tartan" data-x="-1000" data-y="500" data-z="1000" data-rotate-z="60" data-scale="1">
                 <div class="slide-content">
                     <div class="header">
                         <h1>AQM Web Interface</h1>
@@ -148,26 +148,139 @@
                      <ul>
                         <li>Antar muka grafis berbasis web</li>
                         <li>Koordinasi sentral semua server</li>
+                        <li>Menghubungkan pengguna dengan model</li>
                      </ul>
                 </div>
             </div>
             
-            <!-- WRF -->
-            <div id="wrf" class="step" data-x="3000" data-y="0" data-scale="1">
-                <h1>WRF</h1>
-                <h2>Weather Research and Forecasting</h2>
+            <div id="desain-4" class="step slide tartan" data-x="-1500" data-y="2000" data-rotate-x="90" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>AQM RPC Server</h1>
+                    </div>
+                    <p><img src="static/image/diagram/9-relasi-server.png" width="450" /></p>
+                     <ul>
+                        <li>RPC: <i>Remote Procedure Call</i></li>
+                        <li>Node di dalam cluster</li>
+                        <li>Berfungsi untuk menjalankan model</li>
+                        <li>Menentukan kapasitas komputasi sistem</li>
+                     </ul>
+                </div>
             </div>
             
-            <div id="wrf-1" class="step" data-x="3000" data-y="1000" data-scale="1">
-                <h1>WRF</h1>
-                <ul>
-                    <li>Mesoscale meteorological model developed by various agency (NCAR, UCAR, NCEP, university collaborator)</li>
-                    <li>Full CFD (Computational Fluids Dynamics) model.</li>
-                    <li>Standardized data format (NetCDF).</li>
-                    <li>State-of-the-art meteorological model used in weather forcasting.</li>
-                </ul>
+            <div id="desain-5" class="step slide tartan" data-x="-1500" data-y="2000" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>AQM System</h1>
+                    </div>
+                    <p><img src="static/image/diagram/10-black-box.png" width="450" /></p>
+                     <ul>
+                        <li>Bertindak sebagai Black Box</li>
+                     </ul>
+                </div>
             </div>
             
+            
+            <div id="desain-6" class="step slide tartan" data-x="-1500" data-y="2500" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>Diagram Proses AQM System</h1>
+                    </div>
+                    <p><img src="static/image/diagram/11-alur-proses.png" width="550" /></p>
+                </div>
+            </div>
+            
+            <!-- Model -->
+            
+            <div id="wrf" class="step slide cube" data-x="-2500" data-y="0" data-scale="1">
+                <div class="slide-content">
+                    <h1>Model dalam AQM System</h1>
+                </div>
+            </div>
+            
+            <div id="wrf-1" class="step slide cube" data-x="-2500" data-y="500" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>WRF</h1>
+                        <h2>Weather Research and Forecasting</h2>
+                    </div>
+                    <ul>
+                        <li>Mesoscale meteorological model</li>
+                        <li>Full CFD (Computational Fluids Dynamics) model.</li>
+                        <li>Format data terstandarisasi (NetCDF).</li>
+                        <li>Digunakan dalam berbagai aplikasi cuaca.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="wrf-2" class="step slide cube" data-x="-2500" data-y="1000" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>WRF-Chem</h1>
+                    </div>
+                    <ul>
+                        <li>Modul tambahan yang dipasang pada WRF.</li>
+                        <li>Memungkinkan simulasi dispersi pencemar oleh WRF.</li>
+                        <li class="red">Hanya efektif untuk skala meso.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="aqm-aermod-1" class="step slide cube" data-x="-2500" data-y="2000" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>AERMOD</h1>
+                    </div>
+                    <ul>
+                        <li>US EPA Regulatory Model</li>
+                        <li>Model Gaussian dengan Complex Terrain.</li>
+                        <li>AERMAP tidak digunakan dalam AQM System.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <!-- Demonstrasi Sistem -->
+            
+            <div id="demo" class="step slide cicada-stripe" data-x="0" data-y="1000" data-scale="1">
+                <div class="slide-content">
+                    <h1>Demonstrasi AQM System</h1>
+                </div>
+            </div>
+            
+            
+            <!-- Kesimpulan dan Saran-->
+            
+            <div id="Kesimpulan" class="step slide zigzag" data-x="0" data-y="1500" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>Kesimpulan</h1>
+                    </div>
+                    <ul>
+                        <li>Antarmuka grafis berbasis web memudahkan akses model dan data.</li>
+                        <li>Peningkatan performa model dapat dilakukan dengan menambah jumlah RPC Server.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="saran" class="step slide zigzag" data-x="0" data-y="1500" data-rotate-x="90" data-scale="1">
+                <div class="slide-content">
+                    <div class="header">
+                        <h1>Saran</h1>
+                    </div>
+                    <ul>
+                        <li>Menambahkan berbagai data sekunder dalam input meteorologi AERMOD.</li>
+                        <li>Mengintegrasikan proses inventori emisi ke dalam AQM System.</li>
+                        <li>Penambahan fitur statistik hasil model.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="end" class="step slide brady-bunch" data-x="0" data-y="0" data-z="5000" data-scale="3">
+                <div class="slide-content">
+                    <h1>Terima Kasih</h1>
+                </div>
+            </div>
             
         </div>
         
