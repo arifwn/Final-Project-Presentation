@@ -727,6 +727,7 @@ h1,h2,h3,h4,h5{font-family:'Exo',sans-serif;font-weight:bold;}
 .step ul ul li{font-size:20px;line-height:24px;}
 .slide{padding:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:0px 0px 10px #000000;-moz-box-shadow:0px 0px 10px #000000;box-shadow:0px 0px 10px #000000;}.slide .slide-content{margin:0;padding:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background:rgba(255, 255, 255, 0.5);}.slide .slide-content h1,.slide .slide-content h2{margin:0;padding:0;color:#555;}
 .slide .slide-content p{text-align:center;}.slide .slide-content p .thumbnail{display:inline-block;}
+.slide .slide-content table{font-size:14px;}
 .slide .slide-content .header{padding-bottom:20px;}
 #title .title{font-family:'Exo',sans-serif;font-size:38px;font-weight:bold;text-align:center;}#title .title.line-1{font-size:30px;}
 #title .title.line-2{font-size:25px;font-weight:normal;}
